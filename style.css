@@ -11,13 +11,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 145px;
 }
 .half-wide{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
 .half-wide img{
-    width: 80%;
+    width: 85%;
 }
 .hire-button{
     padding: 10px 40px;
@@ -30,4 +31,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.padd-right{
+    padding-right: 60px;
 }
